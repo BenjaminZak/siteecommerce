@@ -15,66 +15,66 @@ class ProduitsTableSeeder extends Seeder
     {
         //
         $produit= new \App\Models\Produit();
-        $produit->nom = "FIFA 21";
-        $produit->prix_ht = 69.99;
-        $produit->description = "Jeu de football";
-        $produit->photo_principale = "fifa21.jpeg";
+        $produit->nom = "Richelieu marron en cuir";
+        $produit->prix_ht = 79.90;
+        $produit->description = "Chaussures de ville en cuir marron";
+        $produit->photo_principale = "chaussures1.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Dragon Ball FighterZ";
-        $produit->prix_ht = 11.99;
-        $produit->description = "Jeu de combat";
-        $produit->photo_principale = "dbfz.jpeg";
+        $produit->nom = "Derby cognac marine en cuir";
+        $produit->prix_ht = 89.90;
+        $produit->description = "Chaussures de ville en cuir cognac et bleu marine";
+        $produit->photo_principale = "chaussures2.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Dofus";
-        $produit->prix_ht = 00.00;
-        $produit->description = "Jeu de stagedie";
-        $produit->photo_principale = "dofus.png";
+        $produit->nom = "Derby marine en cuir";
+        $produit->prix_ht = 89.90;
+        $produit->description = "Chaussures de ville en cuir bleu marine";
+        $produit->photo_principale = "chaussures3.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Overwatch";
-        $produit->prix_ht = 13.99;
-        $produit->description = "FPS";
-        $produit->photo_principale = "overwatch.jpg";
+        $produit->nom = "Derby fluchos camel en cuir";
+        $produit->prix_ht = 119;
+        $produit->description = "Chaussures de ville en cuir camel";
+        $produit->photo_principale = "chaussures4.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Rocket league";
-        $produit->prix_ht = 00.00;
-        $produit->description = "Jeu de football, voiture";
-        $produit->photo_principale = "rocket.jpeg";
+        $produit->nom = "Derby marron en cuir";
+        $produit->prix_ht = 59.90;
+        $produit->description = "Chaussures de ville en cuir marron";
+        $produit->photo_principale = "chaussures5.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Final Fantasy X";
-        $produit->prix_ht = 11.99;
-        $produit->description = "RPG";
-        $produit->photo_principale = "ffx.jpeg";
+        $produit->nom = "Bottes marron en cuir fourré";
+        $produit->prix_ht = 105;
+        $produit->description = "Bottes en cuir marron fourré";
+        $produit->photo_principale = "chaussures6.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Valorant";
-        $produit->prix_ht = 20.00;
-        $produit->description = "FPS";
-        $produit->photo_principale = "valorant.jpg";
+        $produit->nom = "Chelsea bottes cognac en cuir cousu blake";
+        $produit->prix_ht = 149.90;
+        $produit->description = "Bottes cognac en cuir ";
+        $produit->photo_principale = "chaussures7.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "Genshin Impact";
-        $produit->prix_ht = 00.00;
-        $produit->description = "RPG";
-        $produit->photo_principale = "genshin.jpeg";
+        $produit->nom = "Derby noir en cuir";
+        $produit->prix_ht = 89.90;
+        $produit->description = "Chaussures de ville en cuir noir embossé";
+        $produit->photo_principale = "chaussures8.jpg";
         $produit->save();
 
         $produit= new \App\Models\Produit();
-        $produit->nom = "League of Legends";
-        $produit->prix_ht = 00.00;
-        $produit->description = "Arène de bataille en ligne multijoueur";
-        $produit->photo_principale = "lol.jpeg";
+        $produit->nom = "Derby marine en cuir";
+        $produit->prix_ht = 89.90;
+        $produit->description = "Chaussures de ville en cuir bleu marine";
+        $produit->photo_principale = "chaussures9.jpg";
         $produit->save();
     }
 }

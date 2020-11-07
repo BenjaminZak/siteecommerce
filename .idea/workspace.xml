@@ -20,9 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e12d1e09-febe-4792-acfc-40e1ee376d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/shop/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/produit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Shop/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Shop/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/ProduitsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/ProduitsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/dbfz.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/dofus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/ffx.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/fifa21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/genshin.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/lol.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/overwatch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/rocket.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/produits/valorant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shop/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +199,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604095008456</updated>
       <workItem from="1604095009613" duration="884000" />
-      <workItem from="1604221047512" duration="8335000" />
+      <workItem from="1604221047512" duration="16840000" />
+      <workItem from="1604736385577" duration="14354000" />
     </task>
     <servers />
   </component>
@@ -200,6 +217,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="62" key="#CLI_Interpreters" timestamp="1604221116628">
@@ -210,5 +228,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604221126065" />
+    <state width="516" height="445" key="SwitcherDM" timestamp="1604440613963">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="516" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1604440613963" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1604440603597">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1604440603597" />
   </component>
 </project>
