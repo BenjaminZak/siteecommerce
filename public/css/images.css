@@ -1,5 +1,5 @@
 .bg-red {
-
+    background-color: #cea448!important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -7,13 +7,12 @@
     font-weight: 500;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(255, 223, 12);
+    color: #05435a!important;
 
 }
 .bg-dark {
-    background-color: #075e7f!important;
+    background-color: #053648!important;
 }
-
 
 .breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
@@ -35,7 +34,7 @@
     background-color: transparent;
     background-image: none;
     border-color: #eac860;
-    background: #ffc107;
+    background: #cea448;
 }
 
 
@@ -50,4 +49,25 @@
     border-color: #d8a510;
 }
 
+.badge-primary {
+    background-color: #053648!important;
+}
 
+footer a {
+    color: #05435a!important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff!important;
+}
+.bg-light {
+    background-color: #cea448!important;
+}
+
+.badge-info {
+    padding: 3px;
+    border-radius: 5px;
+}
