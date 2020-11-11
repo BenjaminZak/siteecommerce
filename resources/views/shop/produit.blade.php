@@ -23,12 +23,14 @@
                     </div>
                 </div>
                 <div class="col-6">
-
                     <h1 class="jumbotron-heading">{{($produit->nom)}}</h1>
                     <h5>{{number_format($produit->prix_ht,2)}}€</h5>
+                    @foreach($produit->tags as $tag)
+                        <span class="badge-info">
+                        <a class="text-white" href="{{route('voir_produits_par_tag',['id'=>$tag->id])}}">{{$tag->nom}}</a>
+                    </span>
+                    @endforeach
                         <a href="#" class="btn btn-cart my-2 btn-block"><i class="fas fa-shopping-cart"></i> Ajouter au Panier</a>
-                    </p>
-
                 </div>
             </div>
         </div>

@@ -22,3 +22,5 @@ Route::get('/', "App\\Http\\Controllers\\Shop\\MainController@index")->name('hom
 Route::get('/produit/{id}',"App\\Http\\Controllers\\Shop\\MainController@produit")->name('voir_produit');
 
 Route::get('/categorie/{id}', "App\\Http\\Controllers\\Shop\\MainController@viewByCategory")->name('voir_produits_par_cat');
+
+Route::get('/tag/{id}', "App\\Http\\Controllers\\Shop\\MainController@viewByTag")->name('voir_produits_par_tag');

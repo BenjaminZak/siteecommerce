@@ -6,13 +6,14 @@ use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Produit;
 use Illuminate\Http\Request;
+use phpDocumentor\Reflection\DocBlock\Tag;
 
 class MainController extends Controller
 {
     public function index(){
 
         // SELECT * FROM produits;
-        $produits = Produit::all();
+        $produits = Produit::with('category')->get();
         // dd($produits);
         //$categories = Category::where('is_online',1)->get();
 
@@ -38,8 +39,14 @@ class MainController extends Controller
         // $produits = Produit::where('category_id', $request->id)->get();
 
         $category = Category::find($request->id);
-        dd($category->produitsChild);
+        $produits = $category->produits();
 
         return view('shop.categorie', compact('produits', 'category'));
+    }
+
+    public function viewByTag(Request $request) {
+        $tag = \App\Models\Tag::find($request->id);
+        $produits = $tag->produits;
+        return view('shop.categorie', compact('produits', 'tag'));
     }
 }
