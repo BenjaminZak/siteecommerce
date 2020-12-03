@@ -110,7 +110,95 @@
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/darryldecode/cart" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="" />
+      <path value="$PROJECT_DIR$/vendor/mmucklo/inflect" />
+      <path value="$PROJECT_DIR$/vendor/huddledigital/zendesk-laravel" />
+      <path value="$PROJECT_DIR$/vendor/zendesk/zendesk_api_client_php" />
     </include_path>
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="7b0887e8-2ee6-48ad-8965-8142a419a08e" name="PHP" home="$PROJECT_DIR$/../../bin/php/php7.4.2/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="$PROJECT_DIR$/../../bin/php/php7.4.2/conf/php.ini" />
+    </interpreters>
+  </component>
+  <component name="PhpInterpretersPhpInfoCache">
+    <phpInfoCache>
+      <interpreter name="PHP">
+        <phpinfo binary_type="PHP" php_cgi="$PROJECT_DIR$/../../bin/php/php7.4.2/bin/php-cgi" php_cli="$PROJECT_DIR$/../../bin/php/php7.4.2/bin/php" path_separator=":" version="7.4.2">
+          <additional_php_ini />
+          <configuration_file>$PROJECT_DIR$/../../bin/php/php7.4.2/conf/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/Applications/MAMP/bin/php/php7.4.2/lib/php" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="bcmath" />
+            <extension name="bz2" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="gettext" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="imap" />
+            <extension name="intl" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_pgsql" />
+            <extension name="pdo_sqlite" />
+            <extension name="pgsql" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="soap" />
+            <extension name="sockets" />
+            <extension name="sodium" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlrpc" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+    </phpInfoCache>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
   <component name="PhpUnit">

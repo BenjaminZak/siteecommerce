@@ -15,7 +15,7 @@
                                         <a class="text-white" href="{{route('voir_produits_par_cat',['id'=>$produit->category->id])}}">{{$produit->category->nom}}</a>
                                     </span>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <span class="price">{{number_format($produit->prix_ht,2)}}€</span>
+                                        <span class="price">{{$produit->prixTTC()}}€</span>
                                         <a href="{{ route('voir_produit',['id'=>$produit->id]) }}" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i></a>
                                     </div>
                                 </div>

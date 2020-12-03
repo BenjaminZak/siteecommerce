@@ -26,13 +26,33 @@
                 </div>
                 <div class="col-6">
                     <h1 class="jumbotron-heading">{{($produit->nom)}}</h1>
-                    <h5>{{number_format($produit->prix_ht,2)}}€</h5>
+                    <h5>{{$produit->prixTTC()}}€</h5>
                     @foreach($produit->tags as $tag)
                         <span class="badge-info">
                         <a class="text-white" href="{{route('voir_produits_par_tag',['id'=>$tag->id])}}">{{$tag->nom}}</a>
                     </span>
                     @endforeach
-                        <a href="#" class="btn btn-cart my-2 btn-block"><i class="fas fa-shopping-cart"></i> Ajouter au Panier</a>
+                    <hr>
+                    <form action="{{route('cart_add', ['id'=>$produit->id])}}" method="POST" id="panier_add">
+                        @csrf
+                        @if($produit->category_id == 1)
+                        <label for="size">Choisissez votre taille</label>
+                        <select name="size" id="size" class="form-control">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                        </select>
+                        @else
+                            <p>Coucou</p>
+                        @endif
+
+                        <label for="qty">Quantité</label>
+                        <input class="form-control" name="qty" id="qty" type="number" value="1">
+                    </form>
+                    <button type="submit" form="panier_add" class="btn btn-cart my-2 btn-block"><i class="fas fa-shopping-cart"></i> Ajouter au Panier</a></button>
                 </div>
             </div>
         </div>

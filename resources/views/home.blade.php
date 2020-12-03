@@ -22,7 +22,7 @@
     <section class="py-5 text-center">
         <div class="container">
             <h1 class="jumbotron-heading">Bienvenue sur mon site <br><span class="badge badge-primary ">perso </span>!</h1>
-            <p class="lead text-muted">Vous allez découvrir mon univers et pouvoir acheter des choses intéressantes.</p>
+            <p class="lead text-muted">Vous allez pouvoir acheter des choses intéressantes.</p>
 
         </div>
     </section>
