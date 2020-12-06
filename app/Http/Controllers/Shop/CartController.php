@@ -9,6 +9,19 @@ use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
+
+
+    // Supprimer un produit du panier
+    public function del($id) {
+
+        Cart::remove($id);
+
+        return redirect(route('cart_index'));
+    }
+
+
+
+
     // Ajouter un produit au panier
     public function add(Request $request) {
 

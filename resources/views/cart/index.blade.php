@@ -25,11 +25,12 @@
                             </p>
                         </td>
                         <td>
+                            <form action="{{route('cart_del', ['id'=>$produit->id])}}" method="POST" id="panier_del">
+                                @csrf
+                                <button type="submit" form="panier_del" class="btn btn-cart my-2 btn-block"><i class="fas fa-shopping-cart"></i> Supprimer</a></button>
+                            </form>
 
-                            <input style="display: inline-block" id="qte" class="form-control col-sm-4" type="number" value="{{$produit->quantity}}">
 
-
-                            <a  class="pl-2" href=""><i class="fas fa-sync"></i> </a>
                         </td>
                         <td>
                             {{ $produit->attributes['prix_ttc'] }} €

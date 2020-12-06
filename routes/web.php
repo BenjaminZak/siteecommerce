@@ -29,3 +29,4 @@ Route::post('/panier/add/{id}', "App\\Http\\Controllers\\Shop\\CartController@ad
 
 Route::get('/panier', "App\\Http\\Controllers\\Shop\\CartController@index")->name(('cart_index'));
 
+Route::post('/panier/del/{id}', "App\\Http\\Controllers\\Shop\\CartController@del")->name(('cart_del'));
